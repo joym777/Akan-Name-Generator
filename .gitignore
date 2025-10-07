@@ -1,0 +1,24 @@
+#  Keep only project files
+.vscode/
+Thumbs.db
+Desktop.ini
+*.log
+node_modules/
+#Ignore system files
+*.ini
+*.DAT
+*.log
+*.lnk
+# Ignore Windows/OneDrive stuff
+OneDrive/
+Desktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+# Ignore Python/Anaconda environment
+anaconda3/
+# Ignore VS Code settings
+.vscode/
+# Ignore node_modules 
+node_modules/
+# Ignore everything in parent directories
+../

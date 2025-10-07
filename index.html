@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Akan Name Generator</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="LHS">
+       <!--description on LHS.-->
+       <h1>AKAN NAME GENERATOR</h1>
+       <div class="description">
+         <h2>The Origin Of The Names</h2>
+         <p>This is a Western Africa naming tradition, commonly seen in Ghana and The Ivory Coast, that is based on the day of the week a child was born. These names are believed to reflect the character and soul of a person, and their association with a particular body, object or idea.</p>
+       </div>
+      </div>
+      <div class="RHS">
+        <!--Name generator form-->
+        <form>
+          <div>
+            <label for="username">Your name:</label>
+            <input type="text" id="username" placeholder="Enter your name" required><br>
+          </div>
+          <div>
+            <label for="day">Day of birth:</label>
+            <input type="number" id="day" min="1" max="31" required><br>
+          </div>
+          <div>
+            <label for="month">Month of birth:</label>
+            <input type="number" id="month" min="1" max="12" required><br>
+          </div>
+          <div>
+            <label for="year">Year of birth:</label>
+            <input type="number" id="year" required><br>
+          </div>
+          <!--Gender Selection-->
+          <div>
+            <label for="user-gender">Gender:</label>
+            <select id="user-gender" required>
+              <option value="">Select your Gender</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+            </select>
+          </div>
+          <button type="submit" id="submitbutton">Generate Name</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
