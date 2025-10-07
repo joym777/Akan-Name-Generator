@@ -30,6 +30,6 @@ JavaScript - for Logic and Interactivity.
 - Display the meaning of each Akan name.
 - Adding a "share your Akan name" option.
 
-##Author of Project:
+## Author of Project:
 Joy Muteti.
 Made with curiousity and appreciation for culture.
